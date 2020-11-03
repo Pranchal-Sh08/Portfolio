@@ -45,6 +45,10 @@
     
     .row,
     .hero-text-box {padding 0 4%;}
+    nav .row {
+        width: 100%;
+        text-align: center;
+    }
 
     .col {
         width: 100%;
@@ -76,11 +80,20 @@
     section {padding: 25px 0;}
     .contact-form {width: 100%;}
 
-    .logo {
+    /*.logo {
         width: auto;
         height: 350px;
         float:left;
         right: 65px;
+        top: 40px;
+
+    }*/
+    
+    .logo {
+        width: auto;
+        height: auto;
+        float:left;
+        max-width: 100%;
         top: 40px;
 
     }
